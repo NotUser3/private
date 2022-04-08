@@ -1,5 +1,12 @@
+clear
+sleep 1
+echo "---"
+echo "Welcome to Leons SUPER Helper"
+echo "- Please wait -"
+sleep 5
 apt update
 apt upgrade -y
+apt install fail2ban -y
 apt -y install software-properties-common curl apt-transport-https ca-certificates gnupg
 LC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php
 add-apt-repository -y ppa:chris-lea/redis-server
