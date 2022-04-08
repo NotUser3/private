@@ -1,4 +1,5 @@
 apt update
+apt upgrade -y
 apt -y install software-properties-common curl apt-transport-https ca-certificates gnupg
 LC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php
 add-apt-repository -y ppa:chris-lea/redis-server
